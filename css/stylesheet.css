@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+
+*,
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 5px auto;
+  background-color: rgb(252, 248, 251);
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  color: rgb(4, 4, 79);
+}
+
+/* ensure images scale within their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: rgb(252, 248, 251);
+  width: 100%;
+  padding: 5px;
+  border: 0.5px darkblue solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+header h1 {
+  font-size: 2.75em;
+  line-height: 0;
+}
+
+header h3 {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+header img {
+  width: 15%;
+  height: auto;
+  align-self: center;
+}
+
+h4 {
+  font-family: "Inclusive Sans", sans-serif;
+  line-height: 1;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  /* fixed margin to sit below the fixed header; 8rem should be taller than the header
+     across breakpoints so content never starts underneath it */
+  margin-top: 8rem;
+  margin-bottom: 5%;
+  padding-top: 1rem;
+}
+
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(4, 4, 79);
+}
+
+section h1 {
+  font-size: 1.75em;
+  color: magenta;
+}
+
+a h5:hover {
+  background-color: rgb(221, 149, 214);
+}
+
+#title {
+  padding: 1%;
+  align-content: center;
+}
+
+#subtitle {
+  padding: 1%;
+  font-size: 1rem;
+  line-height: 0%;
+  text-align: right;
+}
+#current {
+  width: 89%;
+  margin: auto;
+  margin-top: 1%;
+  padding: 1%;
+}
+#muppets {
+  width: 25%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(4, 4, 79);
+}
+
+#muppets a {
+  width: 100%;
+  line-height: 0;
+  padding: 1%;
+}
+
+#muppets h5 {
+  font-size: 0.75em;
+  line-height: 0;
+}
+
+.category {
+  font-size: 1.25em;
+  color: rgb(182, 155, 3);
+  line-height: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  /* scale down base font-size for readability */
+  html {
+    font-size: 85%;
+  }
+
+  /* stack header content and center it on narrow screens */
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px;
+  }
+
+  header h1 {
+    font-size: 2em;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.1;
+    max-width: 90%;
+  }
+
+  header h3 {
+    font-size: 1.2em;
+  }
+
+  header img {
+    width: 40%;
+    margin-top: 0.5em;
+  }
+
+  #subtitle {
+    text-align: center;
+  }
+
+  /* make project listing full width and remove borders */
+  #muppets {
+    width: 100%;
+    border-right: none;
+    padding: 1% 0;
+  }
+
+  #muppets a {
+    padding: 0.5% 1%;
+  }
+
+  /* adjust current project section if used */
+  #current {
+    width: 100%;
+    margin-top: 2%;
+    padding: 1%;
+  }
+
+  /* give main a bit more top margin since header grows vertically */
+  main {
+    margin-top: 20rem;
+  }
+}

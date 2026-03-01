@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-width: 1px;  
+  border-style: solid;
+  border-color: blue;
+}
+body {
+background-color: orange;
+}

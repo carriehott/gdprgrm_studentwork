@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+}
+
+body {
+  background-color: brown;
+}
+
+strong {
+  color: blue;
+  text-decoration: underline;
+  font-size: 100px;
+}
+
+h1 {
+  color:blanchedalmond;
+  font-style: italic;
+}

@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-width:5px;
+  border-style:solid;
+  border-color:red;
+  
+
+}
+
+body {
+  background-color: plum;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Google Sans Code', monospace;
+  font-size: 48px;
+}
+
+h2{
+  margin:  -80px;
+  padding: 50px;
+  color: white;
+  text-align: center;
+  font-family: 'Google Sans Code', monospace;
+  font-size: 24px;
+}

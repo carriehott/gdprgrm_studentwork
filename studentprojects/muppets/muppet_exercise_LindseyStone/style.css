@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#207D74;
+  
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  color:#207D74;
+  font-size: large;
+  text-align: left;
+}

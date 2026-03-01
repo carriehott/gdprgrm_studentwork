@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-width: 3px;
+  border-style: solid;
+  border-color: purple;
+
+}
+body {
+  background-color: pink;
+}
+h1 {
+  color:blueviolet;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

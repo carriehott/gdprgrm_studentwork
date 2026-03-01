@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #971133;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #cd96d4;
+  margin: 0 auto;
+  text-align: center;
+}
+p {
+  color: aqua;
+}

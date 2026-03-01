@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+  body {
+    background-color: white
+  }
+  canvas{ 
+  display: block;
+  border-width:4 px;
+    border-style: dashed;
+      border-color: blue
+  }
+body{ 
+  background-color:aqua 
+}

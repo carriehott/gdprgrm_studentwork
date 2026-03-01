@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  margin: 0 auto;
+  display: block;
+  border-width: 30px;
+  border-style: solid;
+  border-color: gold;
+}
+
+body {
+  background-color: lavender
+}
+
+h1 {
+  text-align: center;
+  color:green;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color:green;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color:green;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

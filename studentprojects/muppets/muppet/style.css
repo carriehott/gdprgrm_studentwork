@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  border-width: 1px;
+  border-style: solid; 
+  border-color: magenta;
+  margin: 0 auto;
+}
+
+body {
+    background-color: lightYellow;
+}
+h1 {
+  color: plum; 
+  text-align: center; 
+  text-decoration: underline; 
+}
+h2 {
+  color: rgb(78, 185, 176); 
+  text-align: center;
+}
+h3{
+  color: rgb(242, 144, 53);
+  text-align: center;
+}

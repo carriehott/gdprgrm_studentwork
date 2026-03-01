@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+canvas {
+  
+display: block;
+border-width: 5px;
+border-style: solid;
+border-color: purple;
+}
+
+body {
+  background-color: orange;
+}
+q { color: #4E187D;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
