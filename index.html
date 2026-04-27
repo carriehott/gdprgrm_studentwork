@@ -29,7 +29,7 @@
                 <section id="finalprojects">
                     <div class="studentproject">
                     <a href="https://kalittel.github.io/snipt/AssetLibrary.html" target="_blank">
-                        <img src="img/collage17.png" alt="">
+                        <img src="img/scissors-1.png" alt="Kortney's final project">
                         <h5>Kortney</h5>
                     </a>
                     </div>
@@ -41,7 +41,7 @@
                     </div>
                       <div class="studentproject">
                     <a href="https://jmbarron-sys.github.io/flowers/" target="_blank">
-                        <img src="img/b8.png" width="300" alt="Lindsey's final project">
+                        <img src="img/b8.png" width="50px" alt="Jessica's final project">
                         <h5>Jessica</h5>
                     </a>
                     </div>
@@ -52,32 +52,32 @@
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://kintemple.github.io/click/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                    <a href="https://kintemple.github.io/click" target="_blank">
+                        <img src="img/Scan5.png" alt="Kinsey's final project">
                         <h5>Kinsey</h5>
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                    <a href="https://eadnevieve.github.io/vidprompt/" target="_blank">
+                        <img src="img/ruthtv.png" alt="Lindsey's final project">
                         <h5>Ruth</h5>
                     </a>
                     </div>
                       <div class="studentproject">
                     <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                        <img src="img/nextbutton.png" alt="Hannah's final project">
                         <h5>Hannah</h5>
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
+                    <a href="" target="_blank">
                         <img src="img/tv_remote.png" alt="Lindsey's final project">
                         <h5>Ellie</h5>
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                    <a href="https://c4rdfate.github.io/illumanusite/" target="_blank">
+                        <img src="img/queer_img.png" alt="Levi's final project">
                         <h5>Levi</h5>
                     </a>
                     </div>
@@ -95,13 +95,13 @@
                     </div>
                       <div class="studentproject">
                     <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                        <img src="img/poemicon.png" alt="Lindsey's final project">
                         <h5>Amy</h5>
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                    <a href="https://taesnow-gif.github.io/WeatherPlay/" target="_blank">
+                        <img src="img/Taelynn Snow WeatherPlay.png" alt="Lindsey's final project">
                         <h5>Taelynn</h5>
                     </a>
                     </div>
@@ -112,26 +112,26 @@
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                    <a href="https://annaunderwood1499.github.io/bbquiz/" target="_blank">
+                        <img src="img/B&B.png" alt="Anna's final project">
                         <h5>Anna</h5>
                     </a>
                     </div>
                       <div class="studentproject">
                     <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                        <img src="img/bison.png" alt="Lindsey's final project">
                         <h5>Alayna</h5>
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                    <a href="https://alirwolf-a11y.github.io/AbroadScrapbook/"  target="_blank">
+                        <img src="img/camera.png" alt="Ali's final project">
                         <h5>Ali</h5>
                     </a>
                     </div>
                       <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
+                    <a href="https://livsmiller.github.io/abroad-journal/" target="_blank">
+                        <img src="img/pin.png" alt="Liv's final project">
                         <h5>Liv</h5>
                     </a>
                     </div>
@@ -141,11 +141,6 @@
                         <h5>Harper</h5>
                     </a>
                     </div>
-                      <div class="studentproject">
-                    <a href="https://heatedrivalryfan.fun/" target="_blank">
-                        <img src="img/tv_remote.png" alt="Lindsey's final project">
-                        <h5>Levi</h5>
-                    </a>
                     </div>
                       <div class="studentproject">
                     <a href="https://heatedrivalryfan.fun/" target="_blank">
@@ -207,5 +202,19 @@
                     </a>
                 </section> -->
         </main>
+    <script>
+        document.querySelectorAll('.studentproject').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                const hue = Math.floor(Math.random() * 360);
+                el.style.setProperty('--hover-color', `hsl(${hue}, 60%, 80%)`);
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const progress = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+            const r = Math.round(255 * (1 - progress));
+            document.body.style.backgroundColor = `rgb(${r}, 200, 200)`;
+        });
+    </script>
     </body>
 </html>

@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 5px auto;
-  background-color: rgb(252, 248, 251);
+  background-color: rgb(255, 255, 255);
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
   color: rgb(4, 4, 79);
@@ -21,7 +21,7 @@ img {
 }
 
 header {
-  background-color: rgb(252, 248, 251);
+  background-color: rgb(246, 191, 232);
   width: 100%;
   padding: 5px;
   border: 0.5px darkblue solid;
@@ -33,13 +33,13 @@ header {
 }
 
 header h1 {
-  font-size: 2.75em;
-  line-height: 0;
+  font-size: clamp(1.2rem, 3vw, 2.75rem);
+  line-height: 1.1;
 }
 
 header h3 {
-  font-size: 1.5em;
-  line-height: 1;
+  font-size: clamp(0.9rem, 1.5vw, 1.5rem);
+  line-height: 1.2;
 }
 
 header img {
@@ -62,7 +62,7 @@ main {
   margin: auto;
   /* fixed margin to sit below the fixed header; 8rem should be taller than the header
      across breakpoints so content never starts underneath it */
-  margin-top: 8rem;
+  margin-top: clamp(5rem, 8vw, 8rem);
   margin-bottom: 5%;
   padding-top: 1rem;
 }
@@ -83,6 +83,7 @@ a h5:hover {
 }
 
 #title {
+  width: 89%;
   padding: 1%;
   align-content: center;
 }
@@ -101,22 +102,49 @@ a h5:hover {
 }
 
 #finalprojects {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 1%;
   padding: 1%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .studentproject {
   width: 25%;
+  aspect-ratio: 1/1;
   text-align: center;
-  align-content: center;
   height: auto;
   margin: 1.5%;
   border: 0.5px solid rgb(4, 4, 79);
+  display: flex;
+  flex-direction: column;
+}
+
+.studentproject a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 8px;
+}
+
+.studentproject img {
+  width: 75%;
+  height: auto;
+  margin-top: 15%; 
+}
+
+.studentproject h5 {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.studentproject:hover {
+  background-color: var(--hover-color, rgb(221, 149, 214));
 }
 
 
