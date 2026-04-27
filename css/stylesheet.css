@@ -21,7 +21,7 @@ img {
 }
 
 header {
-  background-color: rgb(246, 191, 232);
+  background-color: rgb(250, 242, 248);
   width: 100%;
   padding: 5px;
   border: 0.5px darkblue solid;
@@ -113,7 +113,7 @@ a h5:hover {
 }
 
 .studentproject {
-  width: 25%;
+  width: 20%;
   aspect-ratio: 1/1;
   text-align: center;
   height: auto;
